@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Burn</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+        <span class="span">Daily Burn</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li>
+            <a href="#class" class="navbar-link" data-nav-link>Classes</a>
+          </li>
+
+          <li>
+            <a href="#plans" class="navbar-link" data-nav-link>Plans</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">Join Now</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <strong class="strong">The Best</strong>Fitness Club
+            </p>
+
+            <h1 class="h1 hero-title">We don’t diet and exercise. We eat and train.</h1>
+
+            <p class="section-text">
+                We believe in nourishing our body and pushing our limits, not just following trends.
+            </p>
+
+            <a href="#" class="btn btn-primary">Get Started</a>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="660" height="753" alt="hero banner" class="w-100">
+
+            <img src="./assets/images/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-1">
+            <img src="./assets/images/hero-circle-two.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-2">
+
+            <img src="./assets/images/heart-rate.svg" width="255" height="270" alt="heart rate"
+              class="abs-img abs-img-1">
+            <img src="./assets/images/calories.svg" width="348" height="224" alt="calories" class="abs-img abs-img-2">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <img src="./assets/images/about-banner.png" width="660" height="648" loading="lazy" alt="about banner"
+              class="w-100">
+
+            <img src="./assets/images/about-circle-one.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-1">
+            <img src="./assets/images/about-circle-two.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-2">
+
+            <img src="./assets/images/fitness.png" width="650" height="154" loading="lazy" alt="fitness"
+              class="abs-img w-100">
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">Welcome To Our Fitness Gym</h2>
+
+            <p class="section-text">
+                I'm Ronak, the founder of this gym, and fitness has always been my passion. Here, we believe in a holistic approach to health and wellness. Our philosophy is simple: we don’t diet and exercise; we eat and train. We focus on nourishing our bodies with the right foods and pushing our limits through effective training.
+            </p>
+
+            <p class="section-text">
+                With years of experience and a dedication to helping others achieve their fitness goals, I've created a space where everyone can feel motivated and supported. Whether you're a beginner or an advanced athlete, our gym is designed to cater to your individual needs and help you reach your highest potential.
+                
+            </p>
+
+            <div class="wrapper">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="https://i.pinimg.com/564x/94/52/59/94525945b42bafef9e710916073aa736.jpg" width="65" height="65" loading="lazy" alt="Trainer">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name">Ronak Nehara</h3>
+
+                  <p class="coach-title">Our Coach</p>
+                </div>
+
+              </div>
+
+              <a href="#" class="btn btn-primary">Explore More</a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="section video" aria-label="video">
+        <div class="container">
+
+          <div class="video-card has-before has-bg-image"
+            style="background-image: url('https://i.pinimg.com/564x/55/01/f3/5501f35f8560cf662206a1eb47875291.jpg')">
+
+            <h2 class="h2 card-title">Explore Fitness Life</h2>
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="btn-link has-before">Watch More</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CLASS
+      -->
+
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+        style="background-image: url('./assets/images/classes-bg.png')">
+        <div class="container">
+
+          <p class="section-subtitle">Our Classes</p>
+
+          <h2 class="h2 section-title text-center">User's Fitness Activities</h2>
+
+          <ul class="class-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="https://i.pinimg.com/564x/ae/9a/28/ae9a2856946f47bbda75270df00be953.jpg" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-1.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Weight Lifting</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Weightlifting builds strength and muscle, enhances endurance, and improves overall fitness through progressive resistance and proper technique.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Complete Class</p>
+
+                      <span class="progress-value">85%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="https://i.pinimg.com/564x/3e/32/cc/3e32cc7454f92b29ca3a544dd34c7c42.jpg" width="416" height="240" loading="lazy" alt="Cardio & Strenght"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-2.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Cardio & Strength</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Cardio boosts heart health and stamina, while strength training builds muscle and power, enhancing overall fitness and endurance.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Complete Class</p>
+
+                      <span class="progress-value">70%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="https://i.pinimg.com/564x/cd/0d/4e/cd0d4e1a32a1ab37052bbf67b545e801.jpg" width="416" height="240" loading="lazy" alt="Power Yoga"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-3.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Power Yoga</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Power Yoga combines dynamic poses and intense movements to build strength, flexibility, and mental focus while boosting overall fitness.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Complete Class</p>
+
+                      <span class="progress-value">90%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="https://i.pinimg.com/564x/a5/8a/e2/a58ae2fc86e785c227e09a38ff470bec.jpg" width="416" height="240" loading="lazy" alt="The Fitness Pack"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-4.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">The Fitness Pack</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    
+The Fitness Pack offers a comprehensive approach to health with personalized workouts, balanced nutrition plans, and expert guidance for optimal results.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Complete Class</p>
+
+                      <span class="progress-value">60%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 60%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+      style="background-image: url('./assets/images/classes-bg.png')">
+      <div class="container">
+
+        <p class="section-subtitle">Plans</p>
+
+        <h2 class="h2 section-title text-center">Personalized Workout Plans</h2>
+
+        <ul class="class-list has-scrollbar">
+
+          <li class="scrollbar-item">
+            <div class="class-card">
+
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="https://i.pinimg.com/564x/48/64/74/4864748af80d399c5ca2f561f1cffd73.jpg" width="416" height="240" loading="lazy" alt="Fitness Goals"
+                  class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <div class="title-wrapper">
+                  <img src="./assets/images/class-icon-1.png" width="52" height="52" aria-hidden="true" alt=""
+                    class="title-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Fitness Goals</a>
+                  </h3>
+                </div>
+                <p class="card-text">
+                    Fitness goals in personalized workout plans are specific, measurable objectives tailored to individual aspirations such as weight loss, muscle gain, or improved endurance. These goals are realistic yet challenging, guiding exercise selection and intensity to ensure progress. Regular assessment and adjustment are key to maintaining motivation and achieving sustainable results.
+                   </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="scrollbar-item">
+            <div class="class-card">
+
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="https://i.pinimg.com/564x/45/24/28/45242862238b1638d5786460a33b8a84.jpg" width="416" height="240" loading="lazy" alt="Individual Needs"
+                  class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <div class="title-wrapper">
+                  <img src="./assets/images/class-icon-2.png" width="52" height="52" aria-hidden="true" alt=""
+                    class="title-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Individual Needs</a>
+                  </h3>
+                </div>
+                <p class="card-text">
+                    Personalized routines consider each client's fitness level, body type, and any medical conditions or limitations. This customization ensures workouts are safe, effective, and aligned with personal health goals, optimizing results while minimizing the risk of injury.
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="scrollbar-item">
+            <div class="class-card">
+
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="https://i.pinimg.com/564x/2a/f2/19/2af219ed172e64eeaa8470254fbf0496.jpg" width="416" height="240" loading="lazy" alt="Progress Tracking"
+                  class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <div class="title-wrapper">
+                  <img src="./assets/images/class-icon-3.png" width="52" height="52" aria-hidden="true" alt=""
+                    class="title-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Progress Tracking</a>
+                  </h3>
+                </div>
+
+                <p class="card-text">
+                    Regular assessments track client progress, adjusting routines based on performance data and feedback. This iterative process ensures workouts remain effective and aligned with evolving fitness levels, motivating clients with measurable results and maintaining momentum towards achieving their fitness goals.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li class="scrollbar-item">
+            <div class="class-card">
+
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="https://i.pinimg.com/564x/fb/0e/40/fb0e40ee668fc44e873f51c192ed9da5.jpg" width="416" height="240" loading="lazy" alt="Expert Advice"
+                  class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <div class="title-wrapper">
+                  <img src="./assets/images/class-icon-4.png" width="52" height="52" aria-hidden="true" alt=""
+                    class="title-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Expert Advice</a>
+                  </h3>
+                </div>
+
+                <p class="card-text">
+                    Plans provide expert guidance on exercise techniques, intensity levels, and recovery strategies. This personalized feedback ensures clients perform exercises correctly for maximum benefit and safety. It builds confidence, enhances motivation, and fosters a trusting client-trainer relationship, crucial for sustained progress and overall fitness success.
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li class="scrollbar-item">
+            <div class="class-card">
+
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="https://i.pinimg.com/564x/25/d6/9f/25d69fde29221fc351412b11126c5856.jpg" width="416" height="240" loading="lazy" alt="Flexibility"
+                  class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <div class="title-wrapper">
+                  <img src="./assets/images/class-icon-2.png" width="52" height="52" aria-hidden="true" alt=""
+                    class="title-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Flexibility</a>
+                  </h3>
+                </div>
+                <p class="card-text">
+                    Recognizing the variability in clients' lives, plans are adaptable. They can be adjusted to accommodate changes in schedules, travel, or personal preferences while maintaining progress towards fitness goals. This flexibility enhances adherence and reduces the likelihood of disruptions in the workout routine.</p>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="scrollbar-item">
+            <div class="class-card">
+
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="https://i.pinimg.com/564x/06/79/c0/0679c0c32fe9cf61b934336d9a34bffc.jpg" width="416" height="240" loading="lazy" alt="Time Efficiency"
+                  class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <div class="title-wrapper">
+                  <img src="./assets/images/class-icon-2.png" width="52" height="52" aria-hidden="true" alt=""
+                    class="title-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Time Efficiency</a>
+                  </h3>
+                </div>
+                <p class="card-text">
+                    Personalized workout plans prioritize efficiency by offering routines that fit into busy schedules. They include options for quick, focused workouts that maximize calorie burn or muscle engagement, ensuring clients can achieve their fitness goals without spending hours in the gym.
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Our News</p>
+
+          <h2 class="h2 section-title text-center">Latest Blog Feed</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="https://i.pinimg.com/564x/c7/81/f7/c781f72e4918a22cde0bfb841f0e2c70.jpg" width="440" height="270" loading="lazy"
+                    alt="Going to the gym for the first time" class="img-cover">
+
+                  <time class="card-meta" datetime="2024-05-07">7 May 2024</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Going to the gym for the first time</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Entering the gym for the first time is both exciting and daunting. Start with small, achievable goals and seek guidance from staff or trainers. Embrace the learning process, focusing on proper form and finding exercises that resonate with you. Celebrate every achievement, whether big or small, and don't compare yourself to others. Remember, this journey is about your progress and well-being. With each workout, you're not just building strength but also confidence in your ability to achieve your fitness goals.
+                </p>
+
+                  <a href="#" class="btn-link has-before">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="https://i.pinimg.com/564x/48/79/18/4879180bf6db66e44a279116a889392b.jpg" width="440" height="270" loading="lazy"
+                    alt="Nutrition Tips for Fitness" class="img-cover">
+
+                  <time class="card-meta" datetime="2024-05-11">11 May 2024</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Nutrition Tips for Fitness</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Learn how to fuel your body with the right foods to support your workouts and achieve your fitness goals. Our blog dives into the fundamentals of nutrition, offering practical advice on meal planning, macronutrient balance, and pre/post-workout snacks. Discover the power of nutrient-dense foods and hydration strategies to optimize performance and recovery, helping you maintain energy levels and build lean muscle effectively.
+                </p>
+
+                  <a href="#" class="btn-link has-before">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="https://i.pinimg.com/564x/3a/85/46/3a85463b6ebba38d3b79cc8c0e7c5b2b.jpg" width="440" height="270" loading="lazy"
+                    alt="Seasonal Fitness Challenges" class="img-cover">
+
+                  <time class="card-meta" datetime="2024-06-01">1 June 2024</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Seasonal Fitness Challenges</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Join our community in seasonal fitness challenges designed to boost motivation and achieve new milestones. From fun, themed challenges like outdoor summer workouts to winter fitness routines that embrace indoor activities, we provide structured programs to keep you engaged and progressing year-round. Track your progress, participate in virtual events, and celebrate achievements with our supportive community, fostering a sense of camaraderie and accomplishment as you conquer seasonal fitness goals together.
+                </p>
+
+                  <a href="#" class="btn-link has-before">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+            <span class="span">Daily Burn</span>
+          </a>
+
+          <p class="footer-brand-text">
+            We don’t diet and exercise. We eat and train.
+          </p>
+
+          <div class="wrapper">
+
+            <img src="./assets/images/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
+
+            <ul class="footer-brand-list">
+
+              <li>
+                <p class="footer-brand-title">Monday - Friday</p>
+
+                <p>7:00Am - 10:00Pm</p>
+              </li>
+
+              <li>
+                <p class="footer-brand-title">Saturday - Sunday</p>
+
+                <p>7:00Am - 2:00Pm</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Our Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Classes</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Plans</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Contact Us</p>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+            </div>
+
+            <address class="address footer-link">
+              xyz colony,Sikar,Rajasthan
+            </address>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:18001213637" class="footer-link">1500-000-000</a>
+
+              <a href="tel:+915552348765" class="footer-link">+91 94-34-XXXXXX</a>
+            </div>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:info@fitlife.com" class="footer-link">info@dailyburn.com</a>
+
+              <a href="mailto:services@fitlife.com" class="footer-link">services@dailyburn.com</a>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Our Newsletter</p>
+          </li>
+
+          <li>
+            <form action="" class="footer-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="Email Address" required
+                class="input-field">
+
+              <button type="submit" class="btn btn-primary" aria-label="Submit">
+                <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 Daily Burn. All Rights Reserved By <a href="#" class="copyright-link">Ronak Nehara.</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Terms & Condition</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
